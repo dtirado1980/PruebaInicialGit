@@ -20,7 +20,7 @@ import org.apache.poi.hwpf.converter.WordToTextConverter;
 import org.apache.poi.ss.usermodel.ClientAnchor;
 import org.apache.poi.ss.util.Region;
 
-
+/*comentario de documentación*/
 @SuppressWarnings("deprecation")
 public class ReporteExcel {
 
@@ -149,7 +149,7 @@ public class ReporteExcel {
 			System.out.println("pruebita");
 			
 		} catch (Exception excepcion) {
-			excepcion.printStackTrace();
+			System.out.println("Error en main: "+excepcion.getMessage()+" causado por "+excepcion.getCause());
 		}
 
 	}
